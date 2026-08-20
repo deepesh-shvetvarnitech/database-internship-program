@@ -152,10 +152,7 @@ try:
         )
 
 
-    # ========================================================
-    # Section C — Low Stock Report
-    # ========================================================
-
+    
     def get_low_stock_products():
         cursor.execute(
             "SELECT name, stock FROM products WHERE stock < ?",
@@ -173,7 +170,7 @@ try:
             print("No products need restocking")
 
 
-    # Call the function
+    
     get_low_stock_products()
 
 
@@ -182,7 +179,7 @@ except sqlite3.Error as error:
 
 
 finally:
-    # Close database connection
+   
     if connection:
         connection.close()
         print("\nDatabase connection closed")
