@@ -53,3 +53,31 @@ try:
 except Exception as e:
     print(f"Error :{str(e)}")
 
+'''
+                                      QUESTION = 1
+SQLAlchemy model ek Python class hoti hai. Ye database table ko represent karti hai. Python class ke through hum database table ka structure aur columns define karte hain.                                      
+
+                                       QUESTION =2
+                                 Base.metadata.create_all(engine)
+Ye database mein model ke according table create karta hai. Agar table pehle se bani hui hai, toh dobara nahi banata.
+
+                                       QUESTION = 3
+  Isse same email dobara database mein insert nahi ho sakti. Matlab duplicate email ko rokta hai.                                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
